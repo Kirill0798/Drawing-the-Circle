@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main">
+   <children>
+      <Canvas fx:id="canvas" height="594.0" layoutX="-7.0" layoutY="101.0" width="766.0" />
+      <Label fx:id="mainLabel" layoutX="-2.0" layoutY="18.0" prefHeight="46.0" prefWidth="1004.0" style="-fx-background-color: white;" text="Окружность " textAlignment="CENTER">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="785.0" layoutY="101.0" prefHeight="52.0" prefWidth="198.0" text="Значение х вектора:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="785.0" layoutY="199.0" prefHeight="52.0" prefWidth="198.0" text="Значение у вектора:">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <TextField fx:id="tfx" layoutX="786.0" layoutY="153.0" prefHeight="27.0" prefWidth="198.0" promptText="Введите координату х">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <TextField fx:id="tfy" layoutX="787.0" layoutY="263.0" prefHeight="27.0" prefWidth="198.0" promptText="Введите координату у">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <Button fx:id="btn" layoutX="788.0" layoutY="468.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="198.0" text="Применить" />
+      <Label layoutX="786.0" layoutY="333.0" prefHeight="32.0" prefWidth="198.0" text="Увеличить радиус в: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfr" layoutX="789.0" layoutY="379.0" prefHeight="27.0" prefWidth="198.0" promptText="Введите коэффициент ">
+         <font>
+            <Font size="17.0" />
+         </font></TextField>
+   </children>
+</AnchorPane>
