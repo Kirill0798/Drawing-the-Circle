@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="have done">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="added gitigonre">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Circle.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -195,6 +193,11 @@
               <item name="technology_programms_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="technology_programms_2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="technology_programms_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="technology_programms_2" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -313,7 +316,7 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1587079018565" duration="11495000" />
-      <workItem from="1587111047603" duration="120000" />
+      <workItem from="1587111047603" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="have done">
       <created>1587091822001</created>
@@ -322,11 +325,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587091822002</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added gitigonre">
+      <created>1587111271110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587111271110</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12917000" />
+    <option name="totallyTimeSpent" value="13442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,7 +349,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -357,7 +366,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
@@ -365,7 +374,7 @@
       <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Terminal" order="16" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -386,7 +395,8 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="have done" />
-    <option name="LAST_COMMIT_MESSAGE" value="have done" />
+    <MESSAGE value="added gitigonre" />
+    <option name="LAST_COMMIT_MESSAGE" value="added gitigonre" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
