@@ -6,9 +6,9 @@ import javax.xml.bind.annotation.XmlElement;
 @XmlRootElement
 public class Circle {
 
-    double coordX;
-    double coordY;
-    double radius;
+    private double coordX;
+    private double coordY;
+    private double radius;
 
     public Circle(){
         this.coordX = 0;
